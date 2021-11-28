@@ -5,15 +5,15 @@ public class Calculator {
         return first+second;
     }
 
-   public int multiply(int first, int second) {
+    public double getDegree(int first, int second) {
+        return Math.pow(first,second);
+    }
+
+   public double multiply(int first, int second) {
         return first*second;
     }
 
-    public double intDivide(int first, int second) {
-
-        if (first+second % 2==0){
+    public double divide(int first, int second) {
         return first/second;
-        }
-        return 0;
     }
 }
